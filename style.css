@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.9;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+header {
+    height: 69px;
+    font-size: 22px;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    color: seashell;  
+}
+
+.logo {
+    height: 50px;
+    margin: 0 10px;
+    padding: 9.5px 0;
+}
+li {
+    display: inline-block;
+    text-decoration: underline;
+    text-align: center;
+    margin: 0 10px;
+}
+a {
+    color: seashell;
+}
+a:hover {
+    color: orange;
+}
+a:active {
+    color: red;
+}
+
+.banner {
+    background: url(img-mission-background.jpg);
+    position: relative;
+    top: 5px;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.banner h2{
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0;
+}
+.banner h4{
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0;
+}
+
+.classification {
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 70px;
+}
+.classification h2,h4 {
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    font-family: helvetica, sans-serif;
+}
+.month {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tea {
+    display: inline-block;
+    margin: 0 15px;
+}
+.tea h4 {
+    color: seashell;
+    font-size: 22px;
+    width: 300px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.teas {
+    width: 300px;
+    height: 200px;
+}
+
+.cover h2 {
+    color: seashell;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+.cover {
+   display: flex;
+   background: url(img-locations-background.jpg);
+   justify-content: center;
+   flex-wrap: wrap;
+   align-content: center;
+   width: 1200px;
+   height: 500px;
+   margin: 0 auto;
+   margin-top: 70px;
+}
+.downtown {
+    font-size: 22px;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    color: seashell;
+    margin: 0 20px;
+}
+.downtown p {
+    line-height: 2.5;
+}
+.east {
+    font-size: 22px;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    color: seashell;
+    margin: 0 20px;
+}
+.east p {
+    line-height: 2.5;
+}
+.oakdale {
+    font-size: 22px;
+    opacity: 1;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    color: seashell;
+    margin: 0 20px;
+}
+.oakdale p {
+    line-height: 2.5;
+}
+
+.contact {
+    height: 200px;
+    color: seashell;
+    text-align: center;
+    font-size: 22px;
+}
+.contact h2 {
+    margin-top: 7px;
+}
+
+footer{
+    text-align: left;
+    color: seashell;
+    margin-left: 20px;
+    opacity: 0.9;
+}
