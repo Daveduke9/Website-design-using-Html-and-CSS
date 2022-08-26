@@ -64,8 +64,8 @@ a:active {
     margin: 0px;
     padding: 10px 0;
 }
-.banner h4{
-    font-size: 22px;
+.banner h3{
+    font-size: 20px;
     color: seashell;
     background-color: black;
     width: 100%;
@@ -83,7 +83,7 @@ a:active {
     color: seashell;
     font-size: 22px;
     text-align: center;
-    width: 100%;
+    max-width: 1000px;
     font-family: helvetica, sans-serif;
 }
 .month {
@@ -167,8 +167,9 @@ a:active {
     color: seashell;
     text-align: center;
     font-size: 22px;
+    margin: 0 auto;
 }
-.contact h2 {
+.contact h2, h5 {
     margin-top: 7px;
 }
 
@@ -177,4 +178,119 @@ footer{
     color: seashell;
     margin-left: 20px;
     opacity: 0.9;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    header {
+        font-size: 12px;
+        height: 40px;
+        position: fixed;
+        z-index: 10;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .logo {
+        height: 20px;
+        margin: 0 10px;
+        padding: 9.5px 0;
+    }
+    .banner {
+        background: url(img-mission-background.jpg);
+        background-size: cover;
+        position: relative;
+        top: 5px;
+        height: 300px;
+        max-width: 400px;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    .banner h2 {
+        font-size: 12px;
+    }
+    .banner h3 {
+        font-size: 12px;
+        color: seashell;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 10px 0;
+    }
+    .classification {
+        max-width: 400px;
+        font-size: 12px;
+    }
+    .classification h2 {
+        font-size: 12px;
+    }
+    .classification h4 {
+        font-size: 12px;
+    }
+    .cover {
+        max-width: 400px;
+        max-height: 500;
+        font-size: 12px;
+        background: url(img-locations-background.jpg);
+        background-size: cover;
+    }
+    .cover h2 {
+        font-size: 12px;
+    }
+    .downtown {
+        width: 150px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .downtown p {
+        font-size: 12px;
+    }
+    .downtown h3 {
+        font-size: 12px;
+    }
+    .east {
+        width: 150px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .east p {
+        font-size: 12px;
+    }
+    .east h3 {
+        font-size: 12px;
+    }
+    .oakdale {
+        width: 150px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .oakdale p {
+        font-size: 12px;
+    }
+    .oakdale h3 {
+        font-size: 12px;
+    }
+    .contact {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    body {
+      font-size: 12px;
+    }
+
+    .classification {
+    margin-left: 100px;
+    max-width: 1000px;
+    margin-top: 70px;
+    }
+
+    .contact {
+        display: block;
+        width: 1200px;
+        text-align: center;
+    }
 }
